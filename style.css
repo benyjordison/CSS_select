@@ -1,0 +1,35 @@
+
+ /* 1. Links: vermelho por padrão, limão ao passar o mouse */
+    a {
+      color: red;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: lemonchiffon;
+    }
+
+h2 {
+    color:palevioletred;
+    font-family: Arial, sans-serif;
+}
+p {
+    font-family: Arial, sans-serif;;
+    font-size: 12pt;
+}
+
+ h1 + p {
+      font-weight: bold;
+    }
+
+.destaque {
+      font-family: Arial, sans-serif;
+    }
+
+    p.destaque {
+      font-weight: bold;
+    }
+
+    strong.destaque {
+      color: red;
+    }
